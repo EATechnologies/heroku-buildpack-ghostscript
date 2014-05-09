@@ -14,3 +14,6 @@ mkdir -p vendor/gs
 
 # untar the binary to the directory we want
 tar -C vendor/gs -xvf gs.tgz
+
+# delete downloaded file
+rm gs.tgz
